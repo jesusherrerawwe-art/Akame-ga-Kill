@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Black-haired anime swordsman portrait">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f3f3f3"/>
+      <stop offset="100%" stop-color="#ededed"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#171819"/>
+      <stop offset="100%" stop-color="#0d0f12"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="swordMetal" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#9ea4ad"/>
+      <stop offset="100%" stop-color="#4f545d"/>
+    </linearGradient>
+    <linearGradient id="swordHandle" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#4d2e1d"/>
+      <stop offset="100%" stop-color="#2c1a12"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+
+  <!-- sword -->
+  <g transform="translate(885 145) rotate(10 0 0)" filter="url(#softShadow)">
+    <rect x="87" y="0" width="82" height="350" rx="12" fill="url(#swordHandle)"/>
+    <rect x="105" y="30" width="48" height="200" rx="10" fill="#1d1d1d" opacity="0.65"/>
+    <path d="M75 0 L208 0 L200 42 L142 42 L130 86 L160 86 L147 48 L80 48 Z" fill="#2d2017"/>
+    <path d="M71 70 L215 70 L208 120 L110 120 L96 183 L170 183 L155 240 L88 240 L76 320 L205 320 L198 345 L81 345 L64 376 L125 376 L110 420 L125 420 L208 420 L68 420 L80 500 L78 500 L50 500 L44 350 L18 340 L44 338 L50 70 Z" fill="url(#swordMetal)" opacity="0.95"/>
+    <rect x="62" y="350" width="118" height="32" rx="12" fill="#9aa3a9"/>
+    <rect x="92" y="367" width="58" height="210" rx="18" fill="#2d2d2d" opacity="0.45"/>
+    <rect x="80" y="420" width="80" height="80" rx="10" fill="#5a5f66" opacity="0.7"/>
+  </g>
+
+  <!-- shoulders / coat -->
+  <g filter="url(#softShadow)">
+    <path d="M370 1110 C315 980, 345 860, 435 760 L610 770 C690 855, 738 980, 699 1118 L663 1362 L396 1362 Z" fill="url(#coat)"/>
+    <path d="M470 740 L580 740 L675 1220 L420 1220 Z" fill="#0c0d10" opacity="0.9"/>
+    <path d="M420 800 C365 915, 320 1025, 295 1185 L383 1252 C420 1110, 470 980, 556 889 Z" fill="#0d0f12"/>
+    <path d="M675 800 C742 910, 778 1018, 803 1182 L717 1255 C687 1114, 643 968, 550 885 Z" fill="#0d0f12"/>
+  </g>
+
+  <!-- neck -->
+  <path d="M530 700 L613 700 L640 858 L519 858 Z" fill="#d1a48a"/>
+
+  <!-- head -->
+  <g filter="url(#softShadow)">
+    <path d="M424 420 C430 286, 516 202, 618 214 C708 225, 812 300, 812 456 C812 592, 740 665, 665 701 C593 734, 491 734, 440 675 C392 621, 415 543, 424 420 Z" fill="#f5d3b5"/>
+
+    <!-- hair back -->
+    <path d="M404 450 C402 295, 492 165, 620 140 C744 115, 813 188, 852 293 C891 398, 875 617, 778 706 C720 756, 676 780, 553 780 C486 780, 428 757, 392 713 C350 663, 363 581, 404 450 Z" fill="url(#hair)"/>
+
+    <!-- fringe -->
+    <path d="M422 420 L320 500 L334 390 L434 318 L484 320 L531 255 L595 285 L685 250 L761 300 L814 352 L821 522 L742 505 L710 435 L640 395 L556 408 L462 395 Z" fill="url(#hair)"/>
+    <path d="M400 486 L475 458 L544 410 L600 410 L661 454 L729 466 L808 542 L782 581 L730 566 L689 515 L628 455 L565 462 L491 500 L415 529 Z" fill="#0a0a0a" opacity="0.96"/>
+
+    <!-- bangs left/right -->
+    <path d="M441 453 L368 565 L347 642 L447 611 L488 553 Z" fill="#090909"/>
+    <path d="M704 452 L781 562 L808 630 L714 611 L660 555 Z" fill="#070707"/>
+
+    <!-- face features -->
+    <path d="M468 470 C486 451, 518 446, 534 462 C550 477, 548 500, 526 518 C500 538, 474 531, 462 513 C454 498, 456 485, 468 470 Z" fill="#f4d1b1"/>
+    <path d="M634 470 C653 451, 684 445, 700 460 C717 476, 719 500, 697 519 C672 539, 646 534, 634 514 C625 499, 625 486, 634 470 Z" fill="#f4d1b1"/>
+
+    <!-- eyes -->
+    <path d="M473 515 C499 501, 529 500, 536 517 C525 543, 497 550, 472 535 Z" fill="#a30000"/>
+    <path d="M685 515 C708 500, 737 500, 746 517 C734 541, 708 547, 684 534 Z" fill="#a30000"/>
+    <circle cx="507" cy="522" r="5" fill="#120000"/>
+    <circle cx="717" cy="523" r="5" fill="#120000"/>
+
+    <!-- nose -->
+    <path d="M569 538 C576 567, 584 584, 603 597" stroke="#e1b097" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <!-- mouth -->
+    <path d="M526 628 C554 642, 585 647, 613 632" stroke="#7a3f37" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M565 632 C579 638, 594 637, 608 631" stroke="#a85a54" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- eyebrows -->
+    <path d="M452 478 C480 463, 514 462, 538 476" stroke="#0f0f0f" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M671 478 C699 463, 734 462, 759 477" stroke="#0f0f0f" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <!-- ears -->
+    <path d="M400 530 L378 560 L396 595 L425 570 Z" fill="#f0c7a7"/>
+    <path d="M786 530 L810 560 L795 594 L766 569 Z" fill="#f0c7a7"/>
+
+    <!-- jawline / cheek shadows -->
+    <path d="M431 584 C475 652, 526 684, 593 681 C672 678, 720 630, 752 574" stroke="#d8a075" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.38"/>
+  </g>
+
+  <!-- hair spikes -->
+  <g fill="#090909">
+    <path d="M448 262 L492 152 L540 278 Z"/>
+    <path d="M518 230 L572 110 L596 255 Z"/>
+    <path d="M578 235 L648 122 L692 268 Z"/>
+    <path d="M660 246 L731 166 L770 297 Z"/>
+    <path d="M748 280 L807 236 L840 372 Z"/>
+    <path d="M398 290 L357 212 L450 306 Z"/>
+  </g>
+
+  <!-- jacket collar -->
+  <path d="M453 834 L518 774 L572 834 L610 766 L686 827 L641 925 L547 934 L478 924 Z" fill="#0a0b0d"/>
+  <path d="M488 820 L553 794 L623 817 L581 934 L514 932 Z" fill="#111317"/>
+
+  <!-- body shadow and details -->
+  <g fill="#1b1d22" opacity="0.8">
+    <circle cx="442" cy="928" r="10"/>
+    <circle cx="468" cy="944" r="10"/>
+    <circle cx="502" cy="965" r="10"/>
+    <circle cx="718" cy="930" r="10"/>
+    <circle cx="742" cy="948" r="10"/>
+    <circle cx="770" cy="969" r="10"/>
+  </g>
+</svg>
